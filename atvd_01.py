@@ -41,7 +41,7 @@ def sortTupleList(lista:list[tuple[str,int]]):
     lista.sort()
 
 #questao 05
-#R- Devemos iniciar primeiramente a variavel min_num = inf e a varivael max_num = -inf,
+#R- Devemos iniciar primeiramente a variavel min_num = inf e a variavel max_num = -inf,
 #assim, só devemos percorrer a lista e pra cada iteração fazemos dois ifs, um deles seria pra
 #checar se algum numero é menor que min_num, se sim, min_num recebe o valor desse número e
 #fazer o contrário para max_num. Dessa forma, ao final da iteração teremos o maior valor da
